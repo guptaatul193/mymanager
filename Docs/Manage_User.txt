@@ -1,0 +1,37 @@
+usrid
+* not editable. Once 	
+* must not contain commas and spaces
+* must be unique
+* must not exceed 10 chars
+* can be alphanumeric
+
+usrnm
+* must not contain commas
+* must not exceed 30 chars
+* must contain only alphabets
+
+lvl
+* must not contain commas
+* must be only among these
+	- admin (super user, has complete access)
+		 there can be only 2 active super users at a time
+		to add a new admin user, either of previous 2 admins must be deactivated
+		only an admin user can make changes to user data.
+	- user
+		limited user, cannot modify user data
+
+doj
+* automatically populated
+* format is as what is mentioned in the conf file
+* cannot be edited
+
+lwd
+* automatically populated
+* format is as what is mentioned in the conf file
+* cannot be edited
+* value is 'na' for active users, and has a date value for deleted/deactivated users.
+
+mob
+* cannot contain commas
+* must be numeric, may contain space(s)
+* length must not exceed 15
